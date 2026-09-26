@@ -69,15 +69,16 @@ Select Password File
         ↓
 Start Attack
         ↓
-Password Recovered
+Password Cracked
 
-1. Download John the Ripper
+**1. Download John the Ripper**
 
 The first step was to download John the Ripper.
 
 John the Ripper is an open-source password security auditing and password recovery tool. The official project provides binary distributions for supported platforms, including Windows.
 
 **Steps**
+
 Open the official John the Ripper website.
 Navigate to the download section.
 Download the required John the Ripper package for the system.
@@ -86,7 +87,7 @@ Extract the downloaded archive.
 
 The official documentation explains that when a binary distribution is used, compilation is not required and John can be run from the extracted run directory.
 
-2. Install and Set Up John the Ripper
+**2. Install and Set Up John the Ripper**
 
 After downloading John the Ripper, the archive was extracted.
 
@@ -104,15 +105,10 @@ john/
 │
 └── other files
 
-The main working directory used for the task is the:
-
-run
-
-directory.
 
 According to the official installation documentation, users of binary distributions can start John directly after extraction rather than performing a separate system-wide installation.
 
-3. Locate the John the Ripper Binaries
+**3. Locate the John the Ripper Binaries**
 
 Inside the extracted John the Ripper directory, the required executable and supporting files were located.
 
@@ -124,7 +120,7 @@ The exact executable and supporting files can vary depending on the John distrib
 
 The run directory was therefore used as the main working directory.
 
-4. Open the Network Walks PDF Hash Cracker
+**4. Open the Network Walks PDF Hash Cracker**
 
 After setting up John the Ripper, the next step was to obtain the hash from the password-protected PDF.
 
@@ -132,11 +128,12 @@ The Network Walks PDF Hash Cracker was opened for this purpose.
 
 The tool was used to process the authorized locked PDF and generate the corresponding hash information.
 
-5. Upload the Locked PDF
+**5. Upload the Locked PDF**
 
 The password-protected PDF provided for the Network Walks exercise was uploaded to the PDF Hash Cracker.
 
 **Steps**
+
 Open the PDF Hash Cracker.
 Select the upload option.
 Select the authorized locked PDF.
@@ -145,7 +142,7 @@ Wait for the tool to process the file.
 
 The tool then generated the hash information required for the next step.
 
-6. Copy the Generated Hash
+**6. Copy the Generated Hash**
 
 After uploading the PDF, the PDF Hash Cracker generated a hash.
 
@@ -154,7 +151,7 @@ The generated hash was copied from the tool.
 The hash was then prepared for use with John the Ripper.
 
 
-7. Create hash.txt Using Notepad
+**7. Create hash.txt Using Notepad**
 
 After copying the hash, Notepad was opened.
 
@@ -172,7 +169,7 @@ hash.txt
 
 The file contained the generated lab hash.
 
-8. Open the John the Ripper EXE
+**8. Open john.exe**
 
 The John the Ripper run directory was opened.
 
@@ -184,7 +181,7 @@ John the Ripper is intended to be run from a command-line shell rather than by s
 
 The command prompt was therefore opened in the John the Ripper run directory.
 
-9. Load the hash.txt File
+**9. Load the hash.txt File**
 
 The hash.txt file created earlier was placed where John could access it, or its full path was supplied.
 
@@ -195,11 +192,11 @@ john.exe hash.txt
 John the Ripper accepts password/hash files as command-line arguments.
 
 
-10. Open the Password File
+**10. Open the Password File**
 
 For the password cracking process, the required hash file for the Network Walks exercise was selected.
 
-11. Start the Password Cracking Attack
+**11. Start the Password Cracking Attack**
 
 After loading the hash and selecting the required password file, the cracking process was started.
 
@@ -207,7 +204,7 @@ John then tested password candidates against the supplied hash.
 
 The cracking process may take different amounts of time depending on the password, hash type, wordlist, and system.
 
-12. Display the Recovered Password
+**12. Display the Recovered Password**
 
 After the password was recovered, the result was displayed
 
@@ -267,64 +264,66 @@ Use Password on PDF 2
       ↓
 Use Password on PDF 3
 
-1. Open Network Walks Hash Calculator
+**1. Open Network Walks Hash Calculator**
 
 The Network Walks Hash Calculator was opened.
 
 This tool was used to process the authorized PDF provided for the exercise and obtain the required hash information.
 
-2. Upload the PDF
+**2. Upload the PDF**
 
 The authorized PDF file was uploaded to the Network Walks Hash Calculator.
 
-Steps
+**Steps**
+
 Open the Hash Calculator.
 Select the upload option.
 Choose the PDF provided for the Network Walks exercise.
 Upload the file.
 Wait for the tool to process the file.
 
-3. Generate / Obtain the Hash
+**3. Generate / Obtain the Hash**
 
 After the PDF was uploaded, the Hash Calculator generated the required hash.
 
 The generated hash was copied for use in the next step.
 
-4. Open Network Walks Password Cracker
+**4. Open Network Walks Password Cracker**
 
 The Network Walks Password Cracker was then opened.
 
 This tool was used to perform the password cracking task using the hash obtained from the previous step.
 
-5. Paste the Hash
+**5. Paste the Hash**
 
 The hash generated from the Hash Calculator was copied.
 
 It was then pasted into the appropriate field in the Network Walks Password Cracker.
 
-6. Start Password Cracking
+**6. Start Password Cracking**
 
 After pasting the hash, the password cracking process was started.
 
 The Password Cracker then attempted to identify the password associated with the supplied hash.
 
-7. Crack the Password
+**7. Crack the Password**
 
 After the cracking process was completed, the tool displayed the recovered password.
 
 The recovered password was recorded for the next step.
 
-8. Test the Password on PDF 1
+**8. Test the Password on PDF 1**
 
 The cracked password was used to open the first authorized password-protected PDF.
 
 **Steps**
+
 Open PDF 1.
 Enter the recovered password.
 Confirm that the password is accepted.
 Verify that the PDF opens successfully.
 
-9. Test the Password on PDF 2
+**9. Test the Password on PDF 2**
 
 The same recovered password was then tested against PDF 2.
 
@@ -334,11 +333,12 @@ Enter the recovered password.
 Confirm the password.
 Verify that the PDF opens successfully.
 
-10. Test the Password on PDF 3
+**10. Test the Password on PDF 3**
 
 Finally, the recovered password was tested against PDF 3.
 
 **Steps**
+
 Open PDF 3.
 Enter the recovered password.
 Confirm the password.
@@ -368,7 +368,10 @@ PDF 2
  ↓
 PDF 3
 
-EVIDENCE:
+
+**EVIDENCE:**
+
+
 <img width="867" height="687" alt="JTR - File upload" src="https://github.com/user-attachments/assets/774b7e78-5f99-4051-b74d-72c487351826" />
 <img width="877" height="690" alt="Password cracking JTR" src="https://github.com/user-attachments/assets/cd056efc-2395-45e8-8c60-bb932a7fb568" />
 <img width="1037" height="705" alt="CTF 3" src="https://github.com/user-attachments/assets/e140ef5d-913c-4355-941a-75533b7936ba" />
