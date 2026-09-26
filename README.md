@@ -1,6 +1,6 @@
 # NETWORKWALKS-B083-WK3-PM1-PASSWORD-CRACKING-with-Network-walk-tools
-Password Cracking Using Network Walks Tools and John the Ripper
-Project Overview
+**Password Cracking Using Network Walks Tools and John the Ripper**
+**Project Overview**
 
 This project was completed as part of the Network Walks B082 Cybersecurity Training Program.
 
@@ -8,7 +8,7 @@ The objective of this project is to understand the basic process of password cra
 
 The project is divided into two modules.
 
-Module 1 — John the Ripper Password Cracking
+##**Module 1 — John the Ripper Password Cracking**
 
 This module covers:
 
@@ -25,7 +25,7 @@ Selecting the password file
 Starting the password cracking process
 Verifying the recovered password
 
-Module 2 — Network Walks Hash Calculator and Password Cracker
+##**Module 2 — Network Walks Hash Calculator and Password Cracker***
 
 This module covers:
 
@@ -40,8 +40,8 @@ Testing the recovered password with PDF 1, PDF 2, and PDF 3
 
 Note: All activities documented in this repository were performed using authorized Network Walks lab files.
 
-MODULE 1 — JOHN THE RIPPER PASSWORD CRACKING
-Objective
+##**MODULE 1 — JOHN THE RIPPER PASSWORD CRACKING**
+**Objective**
 
 The objective of Module 1 is to understand how a password-protected file can be converted into a hash representation and then processed using John the Ripper for password recovery.
 
@@ -77,7 +77,7 @@ The first step was to download John the Ripper.
 
 John the Ripper is an open-source password security auditing and password recovery tool. The official project provides binary distributions for supported platforms, including Windows.
 
-Steps
+**Steps**
 Open the official John the Ripper website.
 Navigate to the download section.
 Download the required John the Ripper package for the system.
@@ -136,7 +136,7 @@ The tool was used to process the authorized locked PDF and generate the correspo
 
 The password-protected PDF provided for the Network Walks exercise was uploaded to the PDF Hash Cracker.
 
-Steps
+**Steps**
 Open the PDF Hash Cracker.
 Select the upload option.
 Select the authorized locked PDF.
@@ -213,7 +213,7 @@ After the password was recovered, the result was displayed
 
 The recovered password was then recorded as part of the lab result.
 
-MODULE 1 — RESULT
+##**MODULE 1 — RESULT**
 
 The first module successfully demonstrated the complete password recovery workflow:
 
@@ -235,9 +235,9 @@ Password Cracking
     ↓
 Recovered Password
 
-MODULE 2 — NETWORK WALKS HASH CALCULATOR AND PASSWORD CRACKER
+**MODULE 2 — NETWORK WALKS HASH CALCULATOR AND PASSWORD CRACKER**
 
-Objective
+**Objective**
 
 The objective of Module 2 is to use the Network Walks Hash Calculator and Network Walks Password Cracker to work with the authorized PDF files and recover the required passwords.
 
@@ -318,7 +318,7 @@ The recovered password was recorded for the next step.
 
 The cracked password was used to open the first authorized password-protected PDF.
 
-Steps
+**Steps**
 Open PDF 1.
 Enter the recovered password.
 Confirm that the password is accepted.
@@ -338,13 +338,13 @@ Verify that the PDF opens successfully.
 
 Finally, the recovered password was tested against PDF 3.
 
-Steps
+**Steps**
 Open PDF 3.
 Enter the recovered password.
 Confirm the password.
 Verify that the PDF opens successfully.
 
-MODULE 2 — RESULT
+**MODULE 2 — RESULT**
 
 The second module demonstrated the complete Network Walks password cracking workflow:
 
