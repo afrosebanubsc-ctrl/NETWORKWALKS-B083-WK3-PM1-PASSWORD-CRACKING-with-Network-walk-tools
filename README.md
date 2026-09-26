@@ -368,7 +368,16 @@ PDF 2
  ↓
 PDF 3
 
-The following screenshots will be added to document the practical work completed during the project.
+EVIDENCE:
+<img width="867" height="687" alt="JTR - File upload" src="https://github.com/user-attachments/assets/774b7e78-5f99-4051-b74d-72c487351826" />
+<img width="877" height="690" alt="Password cracking JTR" src="https://github.com/user-attachments/assets/cd056efc-2395-45e8-8c60-bb932a7fb568" />
+<img width="1037" height="705" alt="CTF 3" src="https://github.com/user-attachments/assets/e140ef5d-913c-4355-941a-75533b7936ba" />
+<img width="1052" height="772" alt="CTF 2 " src="https://github.com/user-attachments/assets/3bede974-083c-479c-a837-734c89bf2d67" />
+<img width="892" height="547" alt="captured the flag" src="https://github.com/user-attachments/assets/8f234ff7-509a-4be2-8d0d-d7db0fae1355" />
+<img width="1251" height="827" alt="Network walks hash calc and pwd cracking" src="https://github.com/user-attachments/assets/a68274e3-0f5d-4fcd-a597-0fb762cf8de3" />
+<img width="1242" height="802" alt="Network walks hash calc and pwd cracking psf 3" src="https://github.com/user-attachments/assets/b5838291-a470-46ac-aaba-be5ac84ba120" />
+<img width="1251" height="827" alt="Screenshot 2026-09-26 130937" src="https://github.com/user-attachments/assets/80f61bba-a231-4833-85dd-06c2bd89a2eb" />
+<img width="1242" height="802" alt="Screenshot 2026-09-26 131209" src="https://github.com/user-attachments/assets/4f3df481-a1b1-4ef3-88e2-e27f2b37eaaf" />
 
 
 After completing this project, I gained practical experience in:
@@ -383,7 +392,9 @@ Using password files / wordlists
 Performing password recovery in an authorized lab
 Verifying recovered passwords
 Documenting cybersecurity practical tasks with screenshots and evidence
-Conclusion
+
+
+**Conclusion**
 
 This project provided practical experience with password hashing and password recovery using Network Walks tools and John the Ripper.
 
